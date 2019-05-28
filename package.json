@@ -6,13 +6,20 @@
   "author": "Timo Lins <me@timo.sh>",
   "license": "MIT",
   "bin": {
-    "hyperlayout": "bin/hyperlayout"
+    "hyperlayout": "bin/hyperlayout",
+    "hl": "bin/hyperlayout"
   },
   "keywords": [
     "hyper"
   ],
   "scripts": {
     "test": "xo"
+  },
+  "devDependencies": {
+    "xo": "^0.17.1"
+  },
+  "dependencies": {
+    "debug": "^4.0.0"
   },
   "xo": {
     "esnext": true,
@@ -22,11 +29,5 @@
       "node",
       "browser"
     ]
-  },
-  "devDependencies": {
-    "xo": "^0.17.1"
-  },
-  "dependencies": {
-    "debug": "^3.0.0"
   }
 }
